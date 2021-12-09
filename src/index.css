@@ -5,7 +5,8 @@
 body {
   font-family: sans-serif;
   margin: 3rem;
-  background-color: #dfdfdf;
+  background-color: #e6aeae;
+  text-align: centre;
 }
 
 .btn {
@@ -35,6 +36,13 @@ body {
   background-color: #bb216e;
   border-color: #cc096a;
 }
+.cardMenu {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px black;
+  padding: 1rem;
+  width: 78rem;
+}
 .card {
   background-color: white;
   border-radius: 4px;
@@ -44,11 +52,11 @@ body {
 }
 
 .modal {
-    box-shadow: 0 1px 4px black;
-    border-radius: 6px;
-    background-color: white;
-    padding: 1rem;
-    text-align: center;
-    width: 30rem;
-    z-index: 10;
+  box-shadow: 0 1px 4px black;
+  border-radius: 6px;
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  width: 30rem;
+  z-index: 10;
 }

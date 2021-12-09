@@ -1,10 +1,10 @@
 import Todo from "./components/Todo";
-import Modal from "./components/modal";
+import Modal from "./components/Modal";
 import Backdrop from "./components/Backdrop";
 
 function App() {
   return (
-    <div>
+    <div className='cardMenu'>
       <h1>My To-Dos</h1>
       <Todo text = 'Learn React'/>
       <Todo text = 'Master React'/>
